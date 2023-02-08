@@ -1,0 +1,166 @@
+.main {
+    display: flex;
+}
+.container {
+    width: 550px;
+    margin: 50px auto;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.header {
+        border-left: 2px solid #c4c4c4;
+        padding: 1px;
+        border-bottom: 1px solid #e4e4e4;
+}
+
+.header h3 {
+    margin: 15px;
+    color: #666;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.localization-form {
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    margin-bottom: 7px;
+    font-size: 14px;
+    color: #888;
+    display: inline-block;
+    width: 25%;
+}
+
+.form-group input {
+    width: 60%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #aaa;
+    margin-bottom: 10px;
+}
+
+.form-group .note {
+    display: block;
+    font-size: 12px;
+    color: #666;
+    width: 60%;
+    margin-left: 26%;
+}
+.form-group .note span{
+    background-color: #777;
+    color: #fff;
+    padding: 2px 5px;
+}
+.form-group input:focus {
+    border: 1px solid #444;
+}
+
+.form-group input:focus-visible {
+    outline: none;
+}
+
+.process button {
+    width: 65%;
+    margin-left: 25%;
+    padding: 12px;
+    background: #444444;
+    color: #fff;
+    font-size: 17px;
+    border: 1px solid #000;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.radio {
+    width: 60%;
+    overflow: hidden;
+    display: inline-block;
+    margin-left: 26%;
+}
+
+.radio-box {
+    width: 30%;
+    border: 1px solid#aaa;
+    padding: 7px 35px 1px 7px;
+    font-size: 15px;
+    float: left;
+    margin-right: 10px;
+}
+
+.radio-box input {
+    width: 15px;
+}
+
+.radio-box label {
+    font-size: 16px;
+    padding-left: 30px;
+}
+
+.form-group .filename {
+    width: 27%;
+}
+
+.form-group .separator {
+    height: 35px;
+    width: 30px;
+    background: #fff;
+    border: 1px solid #aaa;
+    color: #000;
+    font-weight: bolder;
+}
+
+.form-group .extension {
+    width: 13%;
+}
+
+.process button:hover {
+    background-color: #222;
+}
+
+
+
+/* Progress bar */
+.circular-progress {
+    margin: 100px 100px 0px 0px;
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background: conic-gradient(#505050 3.6deg, #ededed 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circular-progress::before {
+    content: "";
+    position: absolute;
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px #aaa, -5px -5px 10px #aaa;
+}
+
+.progress-value {
+    position: relative;
+    font-size: 40px;
+    font-weight: 600;
+    color: #4d4d4d;
+}
+
+.text {
+    font-size: 30px;
+    font-weight: 500;
+    color: #606060;
+    display: block;
+    text-align: center;
+    margin-right: 100px;
+    margin-top: 10px
+}
