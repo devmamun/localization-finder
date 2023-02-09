@@ -69,17 +69,17 @@
                     </div>
 
                     <div class="process">
-                        <button type="button" name="" id="">Start Processing</button>
+                        <button type="button" name="" id="start_process">Start Processing</button>
                     </div>
                 </form>
             </div>
         </div>
         <div class="containers">
             <div class="circular-progress">
-                <span class="progress-value">0<br>%</span>
+                <span class="progress-value">0%</span>
             </div>
 
-            <span class="text">0 / 240</span>
+            <span class="text">0 / 0</span>
         </div>
     </div>
 
