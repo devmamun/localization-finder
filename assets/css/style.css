@@ -9,9 +9,9 @@
 }
 
 .header {
-        border-left: 2px solid #c4c4c4;
-        padding: 1px;
-        border-bottom: 1px solid #e4e4e4;
+    border-left: 2px solid #c4c4c4;
+    padding: 1px;
+    border-bottom: 1px solid #e4e4e4;
 }
 
 .header h3 {
@@ -124,7 +124,6 @@
 }
 
 
-
 /* Progress bar */
 .circular-progress {
     margin: 100px 100px 0px 0px;
@@ -163,4 +162,8 @@
     text-align: center;
     margin-right: 100px;
     margin-top: 10px
+}
+
+.hidden {
+    display: none;
 }

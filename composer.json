@@ -1,0 +1,18 @@
+{
+    "name": "devmamun/loacalization-finder",
+    "description": "It can find out all translatable sentences",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Devmamun\\LoacalizationFinder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Al Mamun",
+            "email": "weber.mamun@gmail.com"
+        }
+    ],
+    "require": {}
+}
