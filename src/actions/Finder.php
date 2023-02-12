@@ -125,7 +125,7 @@ class Finder
             'total_files' => $total
         ];
 
-        if ($this->time < time() - 2) {
+        if ($this->time < time() - 1) {
             $this->time = time();
             file_put_contents(__DIR__ . "/../../assets/file/file.txt", json_encode($fileData));
         }
